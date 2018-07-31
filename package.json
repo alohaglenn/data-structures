@@ -1,0 +1,30 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "A data structures workshop in JavaScript ES6'",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-node"
+  },
+  "keywords": [
+    "data structures",
+    "algorithms",
+    "JavaScript",
+    "ES6"
+  ],
+  "author": "Glenn Gonda",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.1.2",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "jest": "^21.2.1"
+  }
+}
