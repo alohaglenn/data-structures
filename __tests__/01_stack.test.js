@@ -28,13 +28,13 @@ describe('push', () => {
 
   test('adds a value to the top of the stack', () => {
     const stack = new Stack();
-    stack.push('good');
+    stack.push('Frank');
     expect(stack.storage).toMatchObject({ '0': 'Frank' });
-    stack.push('kid');
+    stack.push('Ocean');
     expect(stack.storage).toMatchObject({ '0': 'Frank', '1': 'Ocean' });
-    stack.push('maad');
+    stack.push('Channel');
     expect(stack.storage).toMatchObject({ '0': 'Frank', '1': 'Ocean', '2': 'Channel' });
-    stack.push('city');
+    stack.push('Orange');
     expect(stack.storage).toMatchObject({ '0': 'Frank', '1': 'Ocean', '2': 'Channel', '3': 'Orange' });
   });
 });
